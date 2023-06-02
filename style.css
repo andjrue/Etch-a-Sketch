@@ -1,0 +1,68 @@
+* {
+    font-family: monospace;
+    color: rgb(58, 58, 58);
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.539);
+}
+
+.header {
+    font-size: 24px;
+    padding: 25px;
+}
+
+.buttons {
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    font-size: 18px;
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 8px;
+    box-shadow: 3px 3px;
+
+}
+
+.color button{
+    margin: 10px;
+    background-color: transparent !important;
+    padding: .25em 1.25em;
+    text-align: center;
+}
+
+.rainbow button{
+    margin: 10px;
+    background-color: transparent !important;
+    padding: .25em 1.25em;
+    text-align: center;
+}
+
+.eraser button{
+    margin: 10px;
+    background-color: transparent !important;
+    padding: .25em 1.25em;
+    text-align: center;
+}
+
+.clear button{
+    margin: 10px;
+    background-color: transparent !important;
+    padding: .25em 1.25em;
+    text-align: center;
+}
+
+#drawing-board {
+    box-shadow: 3px 3px;
+}
